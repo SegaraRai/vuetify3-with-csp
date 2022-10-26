@@ -1,0 +1,39 @@
+{
+  "cSpell.words": [
+    "vite",
+    "vuetify"
+  ],
+  "eslint.packageManager": "pnpm",
+  "eslint.useESLintClass": true,
+  "eslint.run": "onSave",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.enable": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.associations": {
+    "*.css": "postcss",
+    "_headers": "plaintext",
+    "_redirects": "plaintext"
+  },
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "vue"
+  ],
+  "javascript.preferences.importModuleSpecifierEnding": "minimal",
+  "typescript.preferences.importModuleSpecifierEnding": "minimal",
+  "volar.completion.preferredAttrNameCase": "kebab",
+  "volar.completion.preferredTagNameCase": "pascal",
+}

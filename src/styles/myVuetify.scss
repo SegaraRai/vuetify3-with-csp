@@ -1,0 +1,7 @@
+// we cannot name this file `vuetify.scss` as it causes infinite import recursion
+
+@use 'vuetify' with (
+  // utilities is needed fpr md3 blueprint
+  //$utilities: false,
+  $color-pack: false
+);

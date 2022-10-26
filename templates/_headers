@@ -1,0 +1,18 @@
+/assets/*
+  Cache-Control: public, no-transform, immutable, max-age=31536000
+
+/index.html
+  Cache-Control: public, max-age=0, stale-while-revalidate=604800, stale-if-error=604800
+
+/sw.js
+  Cache-Control: no-cache, no-transform
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Content-Security-Policy: ${CONTENT_SECURITY_POLICY}
+  Permissions-Policy: document-domain=(), camera=(), microphone=(), geolocation=()
+  Referrer-Policy: strict-origin-when-cross-origin
+
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
